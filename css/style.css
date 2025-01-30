@@ -994,7 +994,7 @@ address {
 
 @media (min-width: 1200px) {
 	.intro-btn {
-		/* margin-top: 80px !important; */
+		margin-top: 80px !important;
 		align-items: center;
 	}
 }
