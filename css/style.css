@@ -26581,7 +26581,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 } */
 .button-container {
 	position: relative;
-	bottom: -5px; /* Налаштуйте значення, щоб кнопки розташовувалися поверх зображення */
+	bottom: 50px; /* Налаштуйте значення, щоб кнопки розташовувалися поверх зображення */
 	width: 100%;
 	text-align: center;
 }
