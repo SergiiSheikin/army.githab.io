@@ -26598,3 +26598,24 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 		font-size: 14px; /* Зменшений текст для мобільних */
 	}
 }
+
+/* Для мобільних пристроїв */
+.mobile-image {
+    display: block;
+}
+
+.desktop-image {
+    display: none;
+}
+
+/* Для десктопів */
+@media (min-width: 768px) {
+    .mobile-image {
+        display: none;
+    }
+
+    .desktop-image {
+        display: block;
+    }
+}
+
