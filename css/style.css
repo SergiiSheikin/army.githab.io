@@ -2847,8 +2847,8 @@ html .group-40 > * {
 }
 
 .section-boxed {
-	margin-left: 10px;
-	margin-right: 10px;
+	/* margin-left: 10px;
+	margin-right: 10px; */
 }
 
 .section-15 {
@@ -26575,13 +26575,13 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 		opacity: 0;
 	}
 }
-.full-width-image {
+/* .full-width-image {
 	width: 100%;
 	height: auto;
-}
+} */
 .button-container {
 	position: relative;
-	bottom: 50px; /* Налаштуйте значення, щоб кнопки розташовувалися поверх зображення */
+	bottom: -5px; /* Налаштуйте значення, щоб кнопки розташовувалися поверх зображення */
 	width: 100%;
 	text-align: center;
 }
