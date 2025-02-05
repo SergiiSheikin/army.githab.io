@@ -26585,6 +26585,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	width: 100%;
 	text-align: center;
 }
+@media (max-width: 576px) {
+    .button-container {
+        bottom: -5px; /* Зміна для мобільної версії */
+    }
+}
 .intro-btn {
 	margin: 0 10px; /* Відступи між кнопками */
 	padding: 10px 20px; /* Оптимальний розмір кнопок */
