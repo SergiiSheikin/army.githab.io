@@ -12709,7 +12709,7 @@ h2 + .list-marked-arrow {
 }
 
 .post-sm * + .post-meta {
-	margin-top: 15px;
+	margin-top: -38px;
 }
 
 .post-sm * + .post-title {
@@ -12725,7 +12725,7 @@ h2 + .list-marked-arrow {
 		margin-top: 70px;
 	}
 	.post-sm * + .post-meta {
-		margin-top: 25px;
+		margin-top: -60px;
 	}
 	.post-sm * + .post-title {
 		margin-top: 15px;
