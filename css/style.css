@@ -26627,7 +26627,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .fixed-button {
 	position: fixed;
-	left: 20px; /* Відступ від правого краю */
+	left: 3px; /* Відступ від правого краю */
 	bottom: 50px; /* Відступ від нижнього краю */
 	z-index: 1000; /* Забезпечує, що кнопка буде поверх інших елементів */
 	border-radius: 50px;
