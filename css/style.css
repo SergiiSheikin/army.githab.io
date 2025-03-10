@@ -12616,6 +12616,7 @@ h2 + .list-marked-arrow {
 
 * + .post-title {
 	margin-top: 15px;
+	text-align: center;
 }
 
 * + .post-img-link {
