@@ -6725,8 +6725,8 @@ html .btn-primary,
 html .btn-primary:focus,
 html .btn-primary:active {
 	color: #fff;
-	background-color: #98947C;
-	border-color: #98947C;
+	background-color: #775c47;
+	border-color: #775c47;
 }
 
 .open > html .btn-primary.dropdown-toggle, html .btn-primary:hover, .open >
@@ -26630,5 +26630,5 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	left: 0; /* Відступ від правого краю */
 	bottom: 50px; /* Відступ від нижнього краю */
 	z-index: 1000; /* Забезпечує, що кнопка буде поверх інших елементів */
-	/* border-radius: 50px; */
+	border-radius: 50px;
   }
