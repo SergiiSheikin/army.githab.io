@@ -12743,7 +12743,7 @@ h2 + .list-marked-arrow {
 		margin-top: 19px;
 	}
 	.post-sm .post-img-link + .post-meta {
-		margin-top: 42px;
+		margin-top: -65px;
 	}
 }
 
