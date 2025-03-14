@@ -668,6 +668,8 @@ progress {
 @media (min-width: 1200px) {
 	.container, .container-sm, .container-md, .container-lg, .container-xl {
 		max-width: 1310px;
+		padding-left: 40px;
+		padding-right: 40px;
 	}
 }
 

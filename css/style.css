@@ -2882,7 +2882,7 @@ html .group-40 > * {
 }
 
 .section-60 {
-	padding-top: 60px;
+	/* padding-top: 60px; */
 	padding-bottom: 60px;
 }
 
@@ -3026,10 +3026,10 @@ html .group-40 > * {
 		padding-top: 75px;
 		padding-bottom: 75px;
 	}
-	.section-md-90 {
+	/* .section-md-90 {
 		padding-top: 90px;
 		padding-bottom: 90px;
-	}
+	} */
 	.section-md-100 {
 		padding-top: 100px;
 		padding-bottom: 100px;
@@ -3105,10 +3105,10 @@ html .group-40 > * {
 		padding-top: 130px;
 		padding-bottom: 130px;
 	}
-	.section-lg-150 {
+	/* .section-lg-150 {
 		padding-top: 150px;
 		padding-bottom: 150px;
-	}
+	} */
 	.section-lg-165 {
 		padding-top: 165px;
 		padding-bottom: 165px;
@@ -18990,7 +18990,7 @@ html:not(.lt-ie10) .not-animated {
 
 .rd-navbar-fixed .rd-navbar-brand {
 	position: fixed;
-	top: 10px;
+	/* top: 10px; */
 	left: 64px;
 	z-index: 17;
 	display: block;
