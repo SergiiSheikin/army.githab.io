@@ -2098,7 +2098,8 @@ html .page .offset-top-120 {
 }
 
 .row-40 {
-	margin-bottom: -40px;
+	margin-bottom: -20px;
+	margin-top: -20px;
 }
 
 .row-40:empty {
@@ -2106,7 +2107,12 @@ html .page .offset-top-120 {
 }
 
 .row-40 > * {
-	margin-bottom: 40px;
+	margin-bottom: 0px;
+}
+@media (max-width: 576px) {
+	.row-40 > * {
+		margin-bottom: -20px;
+	}
 }
 
 .row-50 {
@@ -12713,7 +12719,7 @@ h2 + .list-marked-arrow {
 }
 
 .post-sm * + .post-title {
-	margin-top: 10px;
+	margin-top: -30px;
 }
 
 .post-sm * + .post-text {
@@ -12728,7 +12734,7 @@ h2 + .list-marked-arrow {
 		margin-top: -60px;
 	}
 	.post-sm * + .post-title {
-		margin-top: 15px;
+		margin-top: -50px;
 	}
 	.post-sm * + .post-text {
 		margin-top: 10px;
