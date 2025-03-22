@@ -26638,3 +26638,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	z-index: 1000; /* Забезпечує, що кнопка буде поверх інших елементів */
 	border-radius: 50px;
   }
+.center {
+	text-align: center !important;
+}

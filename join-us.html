@@ -39,7 +39,7 @@
               <div class="rd-navbar-panel">
                 <button class="rd-navbar-toggle" data-custom-toggle=".rd-navbar-nav-wrap"
                   data-custom-toggle-disable-on-blur="true"><span></span></button><a class="rd-navbar-brand brand"
-                  href="index.html"><img src="images/logo-155x44.png" alt="" width="155" height="44"></a>
+                  href="index.html"> <img src="images/0(1).png" alt="" width="399"></a>
               </div>
               <div class="rd-navbar-nav-wrap">
                 <div class="rd-navbar-nav-inner">
@@ -48,32 +48,6 @@
                     </li>
                     <li><a href="about-us.html">ПРО НАС</a>
                     </li>
-                    <!-- <li><a href="#">Pages</a>
-                        <ul class="rd-navbar-megamenu">
-                          <li>
-                            <h6 class="rd-megamenu-header">Extras</h6>
-                            <ul class="rd-navbar-list">
-                              <li><a href="404-page.html">404 Page</a></li>
-                              <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                            </ul>
-                          </li>
-                          <li>
-                            <h6 class="rd-megamenu-header">Components</h6>
-                            <ul class="rd-navbar-list">
-                              <li><a href="accordions.html">Accordions</a></li>
-                              <li><a href="buttons.html">Buttons</a></li>
-                              <li><a href="forms.html">Forms</a></li>
-                              <li><a href="typography.html">Typography</a></li>
-                            </ul>
-                          </li>
-                        </ul>
-                      </li> -->
-                    <!-- <li><a href="blog.html">Blog</a>
-                        <ul class="rd-navbar-dropdown">
-                          <li><a href="blog-post.html">Blog post</a>
-                          </li>
-                        </ul>
-                      </li> -->
                     <li class="active"><a href="join-us.html">ПРИЄДНАТИСЯ</a>
                     </li>
                     <li><a href="our_heroes.html">НАШІ ГЕРОЇ</a>
@@ -98,8 +72,8 @@
 
     <section class="section section-60 section-md-top-90 section-md-bottom-100">
       <div class="container">
-        <div class="row row-50 justify-content-md-between">
-          <div class="col-lg-5 col-xl-4">
+        <div class="row row-50 px-2 justify-content-md-center">
+          <!-- <div class="col-lg-5 col-xl-4">
             <div class="inset-lg-right-15 inset-xl-right-0">
               <div class="row row-30 row-md-40">
                 <div class="col-md-10 col-lg-12">
@@ -144,23 +118,58 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
           <div class="col-lg-7 col-xl-6">
-            <h3>Get in Touch</h3>
+            <h3 class="center" >Бажаєш доєднатись до команди 117 обр ТрО? </h3>
             <form class="rd-mailform form-modern" data-form-output="form-output-global" data-form-type="contact"
               method="post" action="bat/rd-mailform.php">
               <div class="row row-30">
                 <div class="col-md-6">
                   <div class="form-wrap">
                     <input class="form-input" id="contact-name" type="text" name="name" data-constraints="@Required">
-                    <label class="form-label" for="contact-name">Name</label>
+                    <label class="form-label" for="contact-name">Ім'я*</label>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-wrap">
-                    <input class="form-input" id="contact-email" type="email" name="email"
-                      data-constraints="@Email @Required">
-                    <label class="form-label" for="contact-email">Email</label>
+                    <input class="form-input" id="contact-last-name" type="text" name="last-name"
+                      data-constraints="@Required">
+                    <label class="form-label" for="contact-last-name">Прізвище*</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-wrap">
+                    <input class="form-input" id="contact-phone" type="text" name="phone"
+                      data-constraints="@Required">
+                    <label class="form-label" for="contact-phone">Номер телефону*</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-wrap">
+                    <input class="form-input" id="contact-data" type="text" name="data"
+                      data-constraints="@Required">
+                    <label class="form-label" for="contact-data">Дата народження*</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-wrap">
+                    <input class="form-input" id="contact-prof" type="text" name="prof"
+                      data-constraints="@Required">
+                    <label class="form-label" for="contact-prof">Професія*</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-wrap">
+                    <input class="form-input" id="contact-rank" type="text" name="rank"
+                      data-constraints="@Required">
+                    <label class="form-label" for="contact-rank">Звання*</label>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-wrap">
+                    <input class="form-input" id="contact-life" type="text" name="life"
+                      data-constraints="@Required">
+                    <label class="form-label" for="contact-life">Стан здоровя (придатний, не придатний, обмежено придатний, невідомо)*</label>
                   </div>
                 </div>
                 <div class="col-sm-12">
@@ -168,53 +177,62 @@
                     <div class="textarea-lined-wrap">
                       <textarea class="form-input" id="contact-message" name="message"
                         data-constraints="@Required"></textarea>
-                      <label class="form-label" for="contact-message">Message</label>
+                      <label class="form-label" for="contact-message">Додаткова інформація (бажаний фах, інше)</label>
                     </div>
                   </div>
                 </div>
+                
               </div>
+
               <div class="row row-30 row-sm-50">
-                <div class="col-sm-8">
-                  <button class="btn btn-primary btn-block" type="submit">Send</button>
+                <div class="col-sm-12">
+                  <button class="btn btn-primary btn-block" type="submit">Надіслати заявку</button>
                 </div>
-                <div class="col-sm-4">
+                <!-- <div class="col-sm-4">
                   <button class="btn btn-silver-outline btn-block" type="reset">Reset</button>
-                </div>
+                </div> -->
               </div>
             </form>
           </div>
         </div>
       </div>
     </section>
-    <!--Google Map-->
-    <!-- <section class="section">
-
-        <div class="google-map-container" data-center="9870 St Vincent Place, Glasgow, DC 45 Fr 45." data-zoom="5" data-icon="images/gmap_marker.png" data-icon-active="images/gmap_marker_active.png" data-styles="[{" featuretype":"landscape","stylers":[{"saturation":-100},{"lightness":60}]},{"featuretype":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featuretype":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featuretype":"administrative.province","stylers":[{"visibility":"off"}]},{"featuretype":"water","stylers":[{"visibility":"on"},{"lightness":30}]},{"featuretype":"road.highway","elementtype":"geometry.fill","stylers":[{"color":"#ef8c25"},{"lightness":40}]},{"featuretype":"road.highway","elementtype":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featuretype":"poi.park","elementtype":"geometry.fill","stylers":[{"color":"#b6c54c"},{"lightness":40},{"saturation":-40}]},{}]"="">
-          <div class="google-map"></div>
-          <ul class="google-map-markers">
-            <li data-location="9870 St Vincent Place, Glasgow, DC 45 Fr 45." data-description="9870 St Vincent Place, Glasgow"></li>
-          </ul>
-        </div>
-      </section> -->
+ 
     <!-- Footer app-->
     <footer class="section footer footer-lg bg-transparent novi-background">
       <div class="container">
         <div class="row row-20">
           <div class="text-center">
             <!-- Logo-->
-            <div class="logo"><a class="logo-link" href="index.html"><img class="retina" src="images/logo-155x44.png"
-                  alt="" width="155" height="44"></a></div>
-            <div class="offset-sm group-30  text-white text-center "><a
-                class="icon icon-xs icon-social int-youtube novi-icon" href="#"></a><a
-                class="icon icon-xs icon-social int-facebook novi-icon" href="#"></a><a
-                class="icon icon-xs icon-social int-instagram novi-icon" href="#"></a><a
-                class="icon icon-xs icon-social int-twitter novi-icon" href="#"></a><a
-                class="icon icon-xs icon-social int-linkedin novi-icon" href="#"></a></div>
+            <div class="logo"><a class="logo-link" href="index.html"><img class="retina" src="images/0(1).png" alt=""
+                  width="399"></a></div>
+            <div class="offset-sm group-30  text-white text-center "><a href="https://www.youtube.com/@117обрТрО"><svg
+                  xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-youtube"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z" />
+                </svg></a>
+              <a href="https://www.facebook.com/117ObrTrO"><svg xmlns="http://www.w3.org/2000/svg" width="22"
+                  height="22" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                </svg></a>
+              <a href="https://t.me/trozsusumy117"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                  fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+                  <path
+                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09" />
+                </svg></a>
+              <a href="https://www.tiktok.com/@117.obr.tro"><svg xmlns="http://www.w3.org/2000/svg" width="22"
+                  height="22" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+                  <path
+                    d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z" />
+                </svg></a>
+            </div>
             <div class="offset-sm media media-xxs text-primary">
               <div class="media-left"><span class=""></span></div>
               <div class="media-body">
                 <ul class="list list-contact">
-                  <li class="list-contact-item">e-mail: 27045@post.mil.gov.ua</li>
+                  <li class="list-contact-item">e-mail: a7045@post.mil.gov.ua</li>
                   <li class="list-contact-item">Телефон: +38 095 368 21 86</li>
                   <li class="list-contact-item">WhatsApp: +38 095 368 21 86</li>
 
