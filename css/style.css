@@ -3786,7 +3786,7 @@ html .group-40 > * {
 		padding-bottom: 100px;
 	}
 	.section-xl-bottom-120 {
-		padding-bottom: 120px;
+		/* padding-bottom: 120px; */
 	}
 	.section-xl-bottom-130 {
 		padding-bottom: 130px;
@@ -13018,7 +13018,7 @@ h2 + .list-marked-arrow {
 
 @media (min-width: 1200px) {
 	.footer {
-		padding-top: 9.375rem;
+		/* padding-top: 9.375rem; */
 	}
 	.footer .row + .row {
 		margin-top: 6.25rem;
