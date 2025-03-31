@@ -26641,3 +26641,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .center {
 	text-align: center !important;
 }
+.inp{
+	min-height: 1px !important;
+}

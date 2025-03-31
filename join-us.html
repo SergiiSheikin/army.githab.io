@@ -120,9 +120,9 @@
             </div>
           </div> -->
           <div class="col-lg-7 col-xl-6">
-            <h3 class="center" >Бажаєш доєднатись до команди 117 обр ТрО? </h3>
+            <h3 class="center">Бажаєш доєднатись до команди 117 обр ТрО? </h3>
             <form class="rd-mailform form-modern" data-form-output="form-output-global" data-form-type="contact"
-              method="post" action="bat/rd-mailform.php">
+              method="post" action="bat/send_mail.php">
               <div class="row row-30">
                 <div class="col-md-6">
                   <div class="form-wrap">
@@ -139,37 +139,33 @@
                 </div>
                 <div class="col-md-6">
                   <div class="form-wrap">
-                    <input class="form-input" id="contact-phone" type="text" name="phone"
-                      data-constraints="@Required">
+                    <input class="form-input" id="contact-phone" type="text" name="phone" data-constraints="@Required">
                     <label class="form-label" for="contact-phone">Номер телефону*</label>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-wrap">
-                    <input class="form-input" id="contact-data" type="text" name="data"
-                      data-constraints="@Required">
+                    <input class="form-input" id="contact-data" type="text" name="data" data-constraints="@Required">
                     <label class="form-label" for="contact-data">Дата народження*</label>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-wrap">
-                    <input class="form-input" id="contact-prof" type="text" name="prof"
-                      data-constraints="@Required">
+                    <input class="form-input" id="contact-prof" type="text" name="prof" data-constraints="@Required">
                     <label class="form-label" for="contact-prof">Професія*</label>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-wrap">
-                    <input class="form-input" id="contact-rank" type="text" name="rank"
-                      data-constraints="@Required">
+                    <input class="form-input" id="contact-rank" type="text" name="rank" data-constraints="@Required">
                     <label class="form-label" for="contact-rank">Звання*</label>
                   </div>
                 </div>
                 <div class="col-md-12">
                   <div class="form-wrap">
-                    <input class="form-input" id="contact-life" type="text" name="life"
-                      data-constraints="@Required">
-                    <label class="form-label" for="contact-life">Стан здоровя (придатний, не придатний, обмежено придатний, невідомо)*</label>
+                    <input class="form-input" id="contact-life" type="text" name="life" data-constraints="@Required">
+                    <label class="form-label" for="contact-life">Стан здоровя (придатний, не придатний, обмежено
+                      придатний, невідомо)*</label>
                   </div>
                 </div>
                 <div class="col-sm-12">
@@ -181,7 +177,41 @@
                     </div>
                   </div>
                 </div>
-                
+                <div class="col-sm-6">
+                  <div class="form-wrap">
+                    <p>Ви є військовослужбовцем на даний момент?</p>
+                    <span>
+                      <input type="radio" class="inp" name="1" value="Так" id="1-0">
+                      <label for="1-0">Так</label>
+                    </span>
+                    <span>
+                      <input type="radio" class="inp" name="1" value="Ні" id="1-1">
+                      <label for="1-1">Ні</label>
+                    </span>
+                  </div>
+
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-wrap">
+                    <p>Ви маєте офіцерське звання?</p>
+                    <span>
+                      <input type="radio" class="inp" name="2" value="Так" id="2-0">
+                      <label for="2-0">Так</label>
+                    </span>
+                    <span>
+                      <input type="radio" class="inp" name="2" value="Ні" id="2-1">
+                      <label for="2-1">Ні</label>
+                    </span>
+                  </div>
+                </div>
+                <div class="col-sm-12">
+                  <div class="form-wrap">
+                    <span>
+                      <input type="checkbox" class="inp" name="3" id="3-0" required="required">
+                      <label for="3-0">Я погоджуюсь на обробку моїх персональних даних</label>
+                    </span>
+                  </div>
+                </div>
               </div>
 
               <div class="row row-30 row-sm-50">
@@ -197,7 +227,7 @@
         </div>
       </div>
     </section>
- 
+
     <!-- Footer app-->
     <footer class="section footer footer-lg bg-transparent novi-background">
       <div class="container">
